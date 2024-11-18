@@ -409,15 +409,18 @@ footer hr
         display: inline-block;
         list-style: none;
     }
-.social-icon li a
-    {
+    .social-icon li a {
         border-radius: 50%;
         color: #A5A5A4;
         text-decoration: none;
         transition: all 0.4s ease-in-out;
         text-align: center;
         margin-right: 10px;
-    }
+        font-size: 1.5em; /* Ajusta el tamaño del icono */
+        width: 50px;      /* Ajusta el tamaño del contenedor del icono */
+        height: 50px;     /* Ajusta el tamaño del contenedor del icono */
+        line-height: 50px; /* Centra el icono dentro del contenedor */
+    }    
 .social-icon li a:hover
     {
         color: #183DC6;
